@@ -1,5 +1,10 @@
-# ecommerce-backend-microservices-springboot
- Scalable e-commerce backend built with Spring Boot microservices, Docker, and PostgreSQL. Features API Gateway, Eureka Discovery, and service observability with Grafana.
+Here's your **formatted `README.md`** ready to be used on GitHub. I’ve cleaned up spacing, fixed syntax, ensured proper code blocks, and preserved image placeholders for easy replacement with actual image URLs:
+
+---
+
+# 📦 ecommerce-backend-microservices-springboot
+
+Scalable e-commerce backend built with Spring Boot microservices, Docker, and PostgreSQL. Features API Gateway, Eureka Discovery, and service observability with Grafana.
 
 This project is a hands-on implementation of a **microservices-based backend system** built with **Spring Boot, Docker, and PostgreSQL**. It simulates a simplified e-commerce platform where users can view products, place orders, and check product availability in inventory.
 
@@ -19,59 +24,63 @@ If you're learning **Spring Boot**, **microservices**, or **cloud-native develop
 
 Here's how the services interact:
 
-![image](https://github.com/user-attachments/assets/28cb7c89-c968-48c6-b064-bf3af5cdbeb0)
+![Architecture 1](https://github.com/user-attachments/assets/28cb7c89-c968-48c6-b064-bf3af5cdbeb0)  
+![Architecture 2](https://github.com/user-attachments/assets/b9231911-65fb-4ebd-adb4-bf4ebc8491fe)  
+![Architecture 3](https://github.com/user-attachments/assets/b19bcc20-eb5d-4f31-9f2f-f492cb126033)
 
-![image](https://github.com/user-attachments/assets/b9231911-65fb-4ebd-adb4-bf4ebc8491fe)
+> Discovery Server (Eureka) helps them find each other.  
+> Each service has its own PostgreSQL database.  
+> Monitoring is handled by Grafana.
 
-
-![image](https://github.com/user-attachments/assets/b19bcc20-eb5d-4f31-9f2f-f492cb126033)
-
-     
-Discovery Server (Eureka) helps them find each other.
-Each service has its own PostgreSQL database.
-Monitoring handled by Grafana.
-```
+---
 
 ## 📦 Tech Stack
 
 - Java 17 + Spring Boot 3
 - Spring Cloud (Gateway, Eureka)
 - Docker & Docker Compose
-- PostgreSQL (each service has its own DB)
+- PostgreSQL (per service DB)
 - Grafana for monitoring
 - Maven for build & dependencies
+
+---
 
 ## 🚀 How to Run the Project
 
 **Requirements:**
-- Docker installed on your system
-- Java 17 (if you want to run individual services outside Docker)
 
-**To run everything:**
+- Docker installed
+- Java 17 (only if running services outside Docker)
+
+**Steps:**
 
 ```bash
-git clone https://github.com/your-username/spring-boot-microservices.git
-cd spring-boot-microservices
+git clone https://github.com/your-username/ecommerce-backend-microservices-springboot.git
+cd ecommerce-backend-microservices-springboot
 docker-compose up --build
 ```
 
-> ⏱ First run might take a few minutes as Docker builds and pulls images.
+> ⏱ First run may take a few minutes to pull and build images.
 
+---
 
 ## 🌐 Services Overview
 
-![image](https://github.com/user-attachments/assets/88b57ef0-d05a-4f10-9aae-e9b2009f8203)
+![Services Diagram](https://github.com/user-attachments/assets/88b57ef0-d05a-4f10-9aae-e9b2009f8203)
 
+---
 
 ## 📊 Observability
 
-Grafana is pre-configured with dashboards to visualize service metrics. You'll find the dashboard config in `Grafana_Dashboard.json`.
+Grafana is pre-configured with dashboards to monitor service metrics. The config is located in `Grafana_Dashboard.json`.
 
-**Login:**
+**Grafana Access:**
+
 - URL: `http://localhost:3000`
 - Username: `admin`
 - Password: `admin`
 
+---
 
 ## 🧪 Testing
 
@@ -81,12 +90,18 @@ Each service includes basic unit and integration tests.
 ./mvnw test
 ```
 
+---
+
 ## 📁 Project Structure
 
-![image](https://github.com/user-attachments/assets/353a8684-8a8f-4e05-8abb-2e47709059d5)
+![Project Structure](https://github.com/user-attachments/assets/353a8684-8a8f-4e05-8abb-2e47709059d5)
 
+---
 
 ## 🙌 Contributing
 
-Feel free to fork this repo and contribute! Whether it's fixing bugs, writing docs, or adding features — contributions are always welcome.
+Contributions are welcome! Feel free to fork this repo, make improvements, and submit a pull request.
 
+---
+
+Let me know if you'd like me to export this as a file for easy upload to your GitHub repo.
