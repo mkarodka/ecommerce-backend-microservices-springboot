@@ -24,14 +24,8 @@ Here's how the services interact:
 ![image](https://github.com/user-attachments/assets/b9231911-65fb-4ebd-adb4-bf4ebc8491fe)
 
 
-User Requests
-     │
-     ▼
-API Gateway (Routing & Auth)
-     │
-     ├──► Product Service (List products)
-     ├──► Order Service (Place orders)
-     └──► Inventory Service (Check stock)
+![image](https://github.com/user-attachments/assets/b19bcc20-eb5d-4f31-9f2f-f492cb126033)
+
      
 Discovery Server (Eureka) helps them find each other.
 Each service has its own PostgreSQL database.
@@ -66,16 +60,8 @@ docker-compose up --build
 
 ## 🌐 Services Overview
 
-| Service           | Port | Description |
-|------------------|------|-------------|
-| API Gateway       | 8080 | Entry point for all services |
-| Eureka Discovery  | 8761 | Registers all microservices |
-| Product Service   | 8081 | Returns product info |
-| Order Service     | 8082 | Places new orders |
-| Inventory Service | 8083 | Checks stock availability |
-| Grafana Dashboard | 3000 | Monitors service health |
+![image](https://github.com/user-attachments/assets/88b57ef0-d05a-4f10-9aae-e9b2009f8203)
 
----
 
 ## 📊 Observability
 
@@ -98,15 +84,7 @@ Each service includes basic unit and integration tests.
 ## 📁 Project Structure
 
 ```
-spring-boot-microservices/
-├── api-gateway/
-├── discovery-server/
-├── product-service/
-├── order-service/
-├── inventory-service/
-├── docker-compose.yml
-├── Grafana_Dashboard.json
-└── README.md
+![image](https://github.com/user-attachments/assets/a571024a-1f5f-4af6-bea6-d04bc47f3997)
 ```
 
 ## 🙌 Contributing
