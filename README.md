@@ -84,7 +84,8 @@ Each service includes basic unit and integration tests.
 ## 📁 Project Structure
 
 ```
-![image](https://github.com/user-attachments/assets/a571024a-1f5f-4af6-bea6-d04bc47f3997)
+![image](https://github.com/user-attachments/assets/abc45565-fceb-4b81-b236-c488cee377b0)
+
 ```
 
 ## 🙌 Contributing
