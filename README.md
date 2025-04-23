@@ -34,12 +34,12 @@ Monitoring handled by Grafana.
 
 ## 📦 Tech Stack
 
-- **Java 17 + Spring Boot 3**
-- **Spring Cloud** (Gateway, Eureka)
-- **Docker & Docker Compose**
-- **PostgreSQL** (each service has its own DB)
-- **Grafana** for monitoring
-- **Maven** for build & dependencies
+- Java 17 + Spring Boot 3
+- Spring Cloud (Gateway, Eureka)
+- Docker & Docker Compose
+- PostgreSQL (each service has its own DB)
+- Grafana for monitoring
+- Maven for build & dependencies
 
 ## 🚀 How to Run the Project
 
