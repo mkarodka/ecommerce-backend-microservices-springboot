@@ -1,7 +1,3 @@
-Here's your **formatted `README.md`** ready to be used on GitHub. I’ve cleaned up spacing, fixed syntax, ensured proper code blocks, and preserved image placeholders for easy replacement with actual image URLs:
-
----
-
 # 📦 ecommerce-backend-microservices-springboot
 
 Scalable e-commerce backend built with Spring Boot microservices, Docker, and PostgreSQL. Features API Gateway, Eureka Discovery, and service observability with Grafana.
@@ -102,6 +98,3 @@ Each service includes basic unit and integration tests.
 
 Contributions are welcome! Feel free to fork this repo, make improvements, and submit a pull request.
 
----
-
-Let me know if you'd like me to export this as a file for easy upload to your GitHub repo.
